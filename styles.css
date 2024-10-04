@@ -13,9 +13,9 @@ body {
 
 /* Animated Background */
 body.animated-background {
-    /* Set up the initial gradient background */
-    background: linear-gradient(-45deg, #1e3c72, #2a5298, #1e3c72, #2a5298);
-    background-size: 400% 400%;
+    /* Updated gradient with more contrasting colors */
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #f0c27b, #4b1248);
+    background-size: 300% 300%; /* Adjusted background size */
     animation: gradientAnimation 15s ease infinite;
 }
 
